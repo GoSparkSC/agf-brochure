@@ -1,0 +1,262 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'BebasRegular';
+    src: url('font/BEBAS___-webfont.eot');
+    src: url('font/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/BEBAS___-webfont.woff') format('woff'),
+         url('font/BEBAS___-webfont.ttf') format('truetype'),
+         url('font/BEBAS___-webfont.svg#BebasRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html,body{
+ /*font-family: 'BebasRegular';*/
+ 	font-family: 'Arial' sans-serif;
+	width:100%;
+	height:100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+.active.blue-color{
+	color: #47befb;
+}
+.active.orange-color{
+	color: #f5a631;
+}
+.active.green-color{
+	color: #6ab619;
+}
+.navigation li .dots{
+	background: url('/images/dots.png');
+	width: 50px;
+	margin-top: 20px;
+	background-size: 50px 10px;
+	margin: 0px auto;
+
+}
+
+.navigation li:hover, .navigation .active .dots{
+	height: 10px;
+}
+
+.nav-wrapper{
+	width: 100%;
+	position: fixed;
+	background: #000000;
+	height: 80px;
+	z-index: 1;
+}
+.spark-logo-icon{
+	margin-top:10px;
+	margin-left: 10px;
+	height: 60px;
+}
+.navigation{
+	margin:0px auto;
+	position:fixed;
+	z-index:2;
+	top:20px;
+	    position: fixed;
+    /* center the element */
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    /* give it dimensions */
+    min-height: 10em;
+    width: 60%;
+}
+.navigation li{
+	color:#ffffff;
+	display:inline-block;
+	padding: 0 50px;
+	line-height:30px;
+	margin-bottom:2px;
+	font-weight:bold;
+	font-size: 25px;
+	-webkit-transition: all .2s ease-in-out;
+	text-align:left;
+	/*width:53px;*/
+}
+.navigation li:hover,.active{
+	cursor:pointer;
+}
+.slide{
+	background-attachment: fixed;
+	width:100%;
+	height:100%;
+	position: relative;
+	box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
+}
+.wrapper{
+	width:960px;
+	height:200px;
+	margin:0 auto;
+	position:relative;
+}
+.slideno{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	font-size:100px;
+	font-weight:bold;
+	color:rgba(255,255,255,0.3);
+}
+.button{
+	display:block;
+	width:50px;
+	height:50px;
+	position:absolute;
+	bottom:0px;
+	left:50%;
+	margin-left: -25px;
+	background-color:#333333;
+	background-image:url(../images/arrow.png);
+}
+.button:hover{
+	background-color:#494949;
+	cursor:pointer;
+}
+
+.main-body-text{
+	font-size: 20px;
+	line-height: 30px;
+}
+.title-span{
+	font-size: 25px;
+}
+/******************************
+ SLIDE 1 
+*******************************/
+#slide1{
+
+	background-color:#ffffff;
+	
+}
+.agf-wrapper{
+	width: 100%;
+
+}
+.agf-header{
+	margin: 0px auto;
+	width: 100%;
+	display: block;
+	padding-top: 150px;
+	padding-bottom: 20px;
+}
+/******************************
+ SLIDE 2 
+*******************************/
+#slide2{
+	background-color:#ffffff;	
+}
+.main-circle{
+	margin: 0px auto;
+	background-color: #000;
+	height: 600px;
+	width: 600px;
+	border-radius: 300px;
+}
+.main-circle p{
+	-webkit-shape-inside:circle();
+	shape-inside:circle();
+}
+/*#slide2 img:first-child{
+	position:absolute;
+top: 700px;
+left: -150px;
+}
+#slide2 img:nth-child(2){
+	position:absolute;
+	top:300px;
+	left:100px;
+}
+#slide2 img:nth-child(3){
+	position:absolute;
+	top:600px;
+	left:300px;
+}
+#slide2 img:nth-child(4){
+	position:absolute;
+	top:400px;
+	left:300px;
+}
+#slide2 img:nth-child(5){
+	position:absolute;
+	top:600px;
+	right:300px;
+}
+#slide2 img:nth-child(6){
+	position:absolute;
+	top:600px;
+	right:300px;
+}
+#slide2 img:nth-child(7){
+	position:absolute;
+	top:400px;
+	right:100px;
+}
+#slide2 img:nth-child(8){
+	position:absolute;
+	top:100px;
+	right:300px;
+}*/
+/******************************
+ SLIDE 3 
+*******************************/
+#slide3{
+	background-color:#b6c10b;
+}
+#slide3 img:first-child{
+	position:absolute;
+top: 700px;
+left: 300px;
+}
+#slide3 img:nth-child(2){
+	position:absolute;
+	top:100px;
+	left:100px;
+}
+#slide3 img:nth-child(3){
+	position:absolute;
+	top:150px;
+	left:300px;
+}
+#slide3 img:nth-child(4){
+	position:absolute;
+	top:450px;
+	left:300px;
+}
+#slide3 img:nth-child(5){
+	position:absolute;
+	top:200px;
+	right:300px;
+}
+#slide3 img:nth-child(6){
+	position:absolute;
+	top:100px;
+	right:300px;
+}
+/******************************
+ SLIDE 4 
+*******************************/
+
+#slide4{
+	background-image:url(../images/Slide4/desktop4.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#slide4 .parallaxbg{
+	position:absolute;
+	right:40px;
+	top:40px;
+	font-size:28px;
+	color:rgba(51,51,51,0.3);
+}
+
