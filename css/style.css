@@ -154,6 +154,12 @@ html,body{
 #slide2{
 	background-color:#ffffff;	
 }
+.circle-image{
+	padding-top: 50px;
+	margin: 0px auto;
+	display: block;
+
+}
 .main-circle{
 	margin: 0px auto;
 	background-color: #000;
@@ -209,7 +215,7 @@ left: -150px;
  SLIDE 3 
 *******************************/
 #slide3{
-	background-color:#b6c10b;
+	background-color:#ffffff;
 }
 #slide3 img:first-child{
 	position:absolute;
@@ -246,11 +252,11 @@ left: 300px;
 *******************************/
 
 #slide4{
-	background-image:url(../images/Slide4/desktop4.jpg);
+/*	background-image:url(../images/Slide4/desktop4.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	background-size: cover;*/
 }
 #slide4 .parallaxbg{
 	position:absolute;
